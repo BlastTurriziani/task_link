@@ -1,7 +1,7 @@
 # TASK N°4
-# Creati una DynamoDB Table e sviluppa una lambda function che scriva un record al suo interno ❤
+# Creati una DynamoDB Table e sviluppa una lambda function che scriva un record al suo interno 
 
-Usa il linguaggio che vuoi per la lambda: Python, nodejs, typescript.. uguale 😊
+Usa il linguaggio che vuoi per la lambda: Python, nodejs, typescript.. uguale 
 
 Ciao!
 Dario
@@ -168,3 +168,4 @@ def lambda_handler(event, context):
 - click sulla + in alto vicino search collections e facciamo blanck collection
 - diamo un nome e mettiamo dentro variables l'url che prendiamo dentro post in aws e mettiamo il nome
 - andiamo sui tre puntini e facciamo add request
+
