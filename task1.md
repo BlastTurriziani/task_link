@@ -17,6 +17,7 @@ SOURCE – RDS
 TARGET
 Creati un bucket S3 chiamato “antonio-esercizio-glue” e salva il file in formato .csv dentro la cartella /data.
 
+PS: per visualizzare il contenuto dell’RDS usa Dbeaver, un tool che ti aiuta a tale scopo
 # Preparazione esercizio
 ### IMPORTANTE !!! ricordarsi di creare tutto con il prefisso antonio
 - Creare un bucket S3 con la regione di Milano(eu-south-1)
@@ -144,4 +145,5 @@ Creati un bucket S3 chiamato “antonio-esercizio-glue” e salva il file in for
 - Il codice ETL creato da glue è semplicemente codice python modificabile, riutilizzabile e portatile.
 - è serverless quindi non ci sono risorse da gestire e paghi solo per quello che i nostri lavori consumano per l'esecuzione.
 - Lavora molto con spark
+
 
