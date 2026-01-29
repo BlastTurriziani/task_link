@@ -96,6 +96,7 @@ Creati un bucket S3 chiamato “antonio-esercizio-glue” e salva il file in for
 - Amazon Athena è un servizio serverless di AWS che permette di fare query SQL direttamente sui dati in S3, senza creare database o server
 - Con Athena i dati non vengono spostati in un database: restano in S3 e vengono interrogati direttamente tramite SQL.
 - Paghiamo solo per i dati scansionati
+
 ## Come usare athena
 - Nella console di athena facciamo clic su query editor
 - Possiamo vedere il catalogo dati e il database del progetto
@@ -122,7 +123,6 @@ Creati un bucket S3 chiamato “antonio-esercizio-glue” e salva il file in for
 # AWS Glue ETL
 - Puoi scrivere il tuo codice nel notebooks tramite la tendina Data integration ETL
 - Puoi creare e modificare visivamente il codice
-- 
 
 # ETL jobs
 - i processi ETL sono il fulcro della funzionalità di ETL aws glue
@@ -144,3 +144,4 @@ Creati un bucket S3 chiamato “antonio-esercizio-glue” e salva il file in for
 - Il codice ETL creato da glue è semplicemente codice python modificabile, riutilizzabile e portatile.
 - è serverless quindi non ci sono risorse da gestire e paghi solo per quello che i nostri lavori consumano per l'esecuzione.
 - Lavora molto con spark
+
